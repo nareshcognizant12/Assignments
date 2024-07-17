@@ -54,7 +54,7 @@ let customers = [
  //1.items purchased by senior citizens
 const productsPurchased=customers.filter((item)=>item.age>60).map((item)=>{console.log(item.f_name+""+item.l_name+" "+item.age+"  ["+item.purchased+"]")});
 console.log("_______________________________________________________________________________")
-//adding fullname property to every customer object and also salutation
+//2.adding fullname property to every customer object and also title
 //console.log(customers[0].fullname="Mr.Abby Thomas");
 // delete customers[0].fullname;
 // console.log(customers[0]);
@@ -73,7 +73,7 @@ const updatedCustomers=customers.map((item)=>{
 //console.log(customers[2].fullname);
 //console.log(updatedCustomers);
 console.log("_______________________________________________________________________________")
-//finding young customer*/
+//3.finding young customer*/
 customers.filter((item)=>{
     if(item.age<10){
         console.log(item.fullname+" "+true);
