@@ -15,8 +15,8 @@ const emp=new Cemployee();
 // console.log(dep.getAllEmployeeFirstnames());
 // console.log(dep.getAllEmployeePositions());
 //console.log(dep.getAllSkills());
-// dep.printDepartmentById(emp.getAllEmployeeIds());
-// dep.printDepartmentByFirstname(emp.getAllEmployeeFirstnames());
-// dep.printDepartmentByPosition(emp.getAllEmployeePositions());
-// console.log("__________________________________________________")
+dep.printDepartmentById(emp.getAllEmployeeIds());
+dep.printDepartmentByFirstname(emp.getAllEmployeeFirstnames());
+dep.printDepartmentByPosition(emp.getAllEmployeePositions());
+console.log("__________________________________________________")
 dep.printEmployeeAndDepartmentBySkills([]);
