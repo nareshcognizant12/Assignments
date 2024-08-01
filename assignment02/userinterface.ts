@@ -1,4 +1,4 @@
-import { Cdepartment, Cemployee } from "./answer03";
+import { Cdepartment, Cemployee } from "./answer";
 
 const dep=new Cdepartment();
 const emp=new Cemployee();
@@ -15,8 +15,8 @@ const emp=new Cemployee();
 // console.log(dep.getAllEmployeeFirstnames());
 // console.log(dep.getAllEmployeePositions());
 //console.log(dep.getAllSkills());
-dep.printDepartmentById(emp.getAllEmployeeIds());
-dep.printDepartmentByFirstname(emp.getAllEmployeeFirstnames());
-dep.printDepartmentByPosition(emp.getAllEmployeePositions());
-console.log("__________________________________________________")
-dep.printEmployeeAndDepartmentBySkills([]);
+// dep.printDepartmentById(emp.getAllEmployeeIds());
+// dep.printDepartmentByFirstname(emp.getAllEmployeeFirstnames());
+// dep.printDepartmentByPosition(emp.getAllEmployeePositions());
+// console.log("__________________________________________________")
+dep.printEmployeeAndDepartmentBySkills(["civil engineering"]);
